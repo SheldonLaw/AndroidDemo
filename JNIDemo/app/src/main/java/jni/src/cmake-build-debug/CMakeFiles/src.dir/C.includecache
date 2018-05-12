@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sheldonluo/workspace/AndroidDemo/JNIDemo/app/src/main/java/jni/src/gif_util.h
+stdlib.h
+-
+string.h
+-
+giflib/gif_lib.h
+/Users/sheldonluo/workspace/AndroidDemo/JNIDemo/app/src/main/java/jni/src/giflib/gif_lib.h
+
+/Users/sheldonluo/workspace/AndroidDemo/JNIDemo/app/src/main/java/jni/src/giflib/gif_lib.h
+stddef.h
+-
+stdbool.h
+-
+
+/Users/sheldonluo/workspace/AndroidDemo/JNIDemo/app/src/main/java/jni/src/main.c
+gif_util.h
+/Users/sheldonluo/workspace/AndroidDemo/JNIDemo/app/src/main/java/jni/src/gif_util.h
+

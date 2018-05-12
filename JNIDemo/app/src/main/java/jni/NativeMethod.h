@@ -15,6 +15,22 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_example_sheldonluo_jnidemo_NativeMethod_print
   (JNIEnv *, jclass, jstring);
 
+/*
+ * Class:     com_example_sheldonluo_jnidemo_NativeMethod
+ * Method:    loadGif
+ * Signature: (Ljava/lang/String;)V
+ */
+JNIEXPORT void JNICALL Java_com_example_sheldonluo_jnidemo_NativeMethod_loadGif
+  (JNIEnv *, jclass, jstring);
+
+/*
+ * Class:     com_example_sheldonluo_jnidemo_NativeMethod
+ * Method:    getNextFrame
+ * Signature: (Landroid/graphics/Bitmap;)V
+ */
+JNIEXPORT void JNICALL Java_com_example_sheldonluo_jnidemo_NativeMethod_getNextFrame
+  (JNIEnv *, jclass, jobject);
+
 #ifdef __cplusplus
 }
 #endif

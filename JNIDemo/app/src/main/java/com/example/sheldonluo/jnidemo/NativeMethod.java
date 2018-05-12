@@ -1,5 +1,7 @@
 package com.example.sheldonluo.jnidemo;
 
+import android.graphics.Bitmap;
+
 public class NativeMethod {
 
     static {
@@ -15,5 +17,8 @@ public class NativeMethod {
 
     public static native String print(String msg);
 
+    public static native void loadGif(String path);
+
+    public static native void getNextFrame(Bitmap bitmap);
 }
 

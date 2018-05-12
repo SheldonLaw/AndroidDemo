@@ -18,10 +18,16 @@ android {
     }
     sourceSets {
         main {
-            jniLibs.srcDirs = ['libs']
+//            jniLibs.srcDirs = ['src/main/java/libs']
+            jni.srcDirs = []
         }
     }
-
+    externalNativeBuild {
+        ndkBuild {
+            // Android.mk 的相对路径
+            path "src/main/java/jni/Android.mk"
+        }
+    }
 }
 
 dependencies {

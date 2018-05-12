@@ -5,4 +5,4 @@ for learning and testing
 
 ## Features
 - Gesture recognize
-- JNIDemo
+- JNIDemo - render Gif with JNI & Giflib
